@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ism Soundboard</string>
+    <string name="button_shame">Shame</string>
+    <string name="button_chopper">Chopper</string>
+    <string name="button_live">Do It Live</string>
+    <string name="button_thing_sucks">Thing Sucks</string>
+    <string name="button_they_will_do">They Will Do</string>
+    <string name="button_emotion">Emotion</string>
+    <string name="button_pushy">Pushy</string>
+    <string name="button_understand">Understand</string>
+</resources>

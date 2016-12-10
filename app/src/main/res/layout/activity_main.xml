@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:columnCount="2"
+        tools:context="com.trevorism.easypasscost.MainActivity">
+    <Button
+        android:onClick="chopper"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chopper" />
+    <Button
+        android:onClick="doItLive"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_live" />
+    <Button
+        android:onClick="emotion"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_emotion" />
+    <Button
+        android:onClick="pushy"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_pushy" />
+    <Button
+        android:onClick="shame"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_shame" />
+    <Button
+        android:onClick="theyWillDo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_they_will_do" />
+    <Button
+        android:onClick="thingSucks"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_thing_sucks" />
+    <Button
+        android:onClick="understand"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_understand" />
+
+</GridLayout>
