@@ -1,10 +1,10 @@
 package com.trevorism.easypasscost;
 
+import android.content.res.Configuration;
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,48 +12,86 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        //.setNumColumns(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE ? 3 : 2);
+        super.onConfigurationChanged(newConfig);
+    }
+
+    private void playSong(int songResource) {
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, songResource);
+        mediaPlayer.start();
+    }
+
+    public void chairs(View view) {
+        playSong(R.raw.chairs);
     }
 
     public void shame(View view) {
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.shame);
-        mediaPlayer.start();
+        playSong(R.raw.shame);
     }
 
     public void doItLive(View view) {
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.do_it_live);
-        mediaPlayer.start();
+        playSong(R.raw.do_it_live);
     }
 
     public void thingSucks(View view) {
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.thing_sucks);
-        mediaPlayer.start();
+        playSong(R.raw.thing_sucks);
     }
 
     public void theyWillDo(View view) {
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.they_will_do);
-        mediaPlayer.start();
+        playSong(R.raw.they_will_do);
     }
 
-    public void chopper(View view){
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.chopper);
-        mediaPlayer.start();
+    public void chopper(View view) {
+        playSong(R.raw.chopper);
+    }
+
+    public void emotion(View view) {
+        playSong(R.raw.emotion);
 
     }
 
-    public void emotion(View view){
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.emotion );
-        mediaPlayer.start();
+    public void pushy(View view) {
+        playSong(R.raw.pushy);
 
     }
-    public void pushy(View view){
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.pushy);
-        mediaPlayer.start();
 
+    public void understand(View view) {
+        playSong(R.raw.understand);
     }
-    public void understand(View view){
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.understand);
-        mediaPlayer.start();
 
+    public void julep(View view) {
+        playSong(R.raw.julep);
+    }
+
+    public void moron(View view) {
+        playSong(R.raw.moron);
+    }
+
+    public void mobile(View view) {
+        playSong(R.raw.mobile);
+    }
+
+    public void iceCube(View view) {
+        playSong(R.raw.ice_cube);
+    }
+
+    public void heyya(View view) {
+        playSong(R.raw.heyya);
+    }
+
+    public void gangster(View view) {
+        playSong(R.raw.gangster);
+    }
+
+    public void froggy(View view) {
+        playSong(R.raw.froggy);
+    }
+
+    public void baam(View view) {
+        playSong(R.raw.baam);
     }
 }

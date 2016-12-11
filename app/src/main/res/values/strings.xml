@@ -3,9 +3,18 @@
     <string name="button_shame">Shame</string>
     <string name="button_chopper">Chopper</string>
     <string name="button_live">Do It Live</string>
+    <string name="button_ice_cube">Ice Cube</string>
     <string name="button_thing_sucks">Thing Sucks</string>
     <string name="button_they_will_do">They Will Do</string>
+    <string name="button_julep">Mint Julep</string>
     <string name="button_emotion">Emotion</string>
     <string name="button_pushy">Pushy</string>
     <string name="button_understand">Understand</string>
+    <string name="button_baam">Baam</string>
+    <string name="button_chairs">Chairs</string>
+    <string name="button_froggy">Froggy</string>
+    <string name="button_gangster">Gangster</string>
+    <string name="button_heyya">Hey Ya</string>
+    <string name="button_mobile">Mobile</string>
+    <string name="button_moron">Moron</string>
 </resources>

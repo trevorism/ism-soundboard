@@ -1,3 +1,3 @@
-# EasyPassCost
+# Ism Soundboard
 
-An android app. Coming soon..
+An android app that plays hilarious sound clips.

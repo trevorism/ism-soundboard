@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.trevorism.easypasscost.MainActivity">
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/board"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="50dp"
+            android:columnCount="4"
+            >
+
+    <Button
+        android:onClick="baam"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_baam"/>
+
+    <Button
+        android:onClick="chairs"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chairs"/>
+
+    <Button
+        android:onClick="chopper"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chopper"/>
+
+    <Button
+        android:onClick="doItLive"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_live"/>
+
+    <Button
+        android:onClick="emotion"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_emotion"/>
+
+    <Button
+        android:onClick="froggy"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_froggy"/>
+
+    <Button
+        android:onClick="gangster"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_gangster"/>
+
+    <Button
+        android:onClick="heyya"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_heyya"/>
+
+    <Button
+        android:onClick="iceCube"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ice_cube"/>
+
+    <Button
+        android:onClick="julep"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_julep"/>
+
+    <Button
+        android:onClick="mobile"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_mobile"/>
+
+    <Button
+        android:onClick="moron"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_moron"/>
+
+    <Button
+        android:onClick="pushy"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_pushy"/>
+
+    <Button
+        android:onClick="shame"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_shame"/>
+
+    <Button
+        android:onClick="theyWillDo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_they_will_do"/>
+
+    <Button
+        android:onClick="thingSucks"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_thing_sucks"/>
+
+    <Button
+        android:onClick="understand"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_understand"/>
+</GridLayout>
+</ScrollView>
