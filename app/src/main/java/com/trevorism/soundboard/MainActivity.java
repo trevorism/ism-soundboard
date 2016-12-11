@@ -1,4 +1,4 @@
-package com.trevorism.easypasscost;
+package com.trevorism.soundboard;
 
 import android.content.res.Configuration;
 import android.media.MediaPlayer;

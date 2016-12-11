@@ -1,4 +1,4 @@
-package com.trevorism.easypasscost.view;
+package com.trevorism.soundboard.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
