@@ -14,12 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        //.setNumColumns(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE ? 3 : 2);
-        super.onConfigurationChanged(newConfig);
-    }
-
     private void playSong(int songResource) {
         MediaPlayer mediaPlayer = MediaPlayer.create(this, songResource);
         mediaPlayer.start();
