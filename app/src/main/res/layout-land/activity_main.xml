@@ -12,13 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="50dp"
-        android:columnCount="4">
-
-        <Button
-            android:onClick="baam"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/button_baam"/>
+        android:columnCount="2">
 
         <Button
             android:onClick="chairs"
@@ -45,6 +39,12 @@
             android:text="@string/button_emotion"/>
 
         <Button
+            android:onClick="fieldTrip"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_field_trip"/>
+
+        <Button
             android:onClick="froggy"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -57,12 +57,6 @@
             android:text="@string/button_gangster"/>
 
         <Button
-            android:onClick="heyya"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/button_heyya"/>
-
-        <Button
             android:onClick="iceCube"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -73,12 +67,6 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:text="@string/button_julep"/>
-
-        <Button
-            android:onClick="mobile"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/button_mobile"/>
 
         <Button
             android:onClick="moron"
@@ -115,5 +103,11 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:text="@string/button_understand"/>
+
+        <Button
+            android:onClick="walks"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_walks"/>
     </GridLayout>
 </ScrollView>

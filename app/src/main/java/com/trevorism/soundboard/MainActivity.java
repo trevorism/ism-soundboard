@@ -45,12 +45,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void emotion(View view) {
         playSong(R.raw.emotion);
-
     }
 
     public void pushy(View view) {
         playSong(R.raw.pushy);
-
     }
 
     public void understand(View view) {
@@ -65,16 +63,8 @@ public class MainActivity extends AppCompatActivity {
         playSong(R.raw.moron);
     }
 
-    public void mobile(View view) {
-        playSong(R.raw.mobile);
-    }
-
     public void iceCube(View view) {
         playSong(R.raw.ice_cube);
-    }
-
-    public void heyya(View view) {
-        playSong(R.raw.heyya);
     }
 
     public void gangster(View view) {
@@ -85,7 +75,11 @@ public class MainActivity extends AppCompatActivity {
         playSong(R.raw.froggy);
     }
 
-    public void baam(View view) {
-        playSong(R.raw.baam);
+    public void fieldTrip(View view) {
+        playSong(R.raw.field_trip);
+    }
+
+    public void walks(View view) {
+        playSong(R.raw.walks);
     }
 }
